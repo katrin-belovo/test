@@ -1,0 +1,84 @@
+body{
+    background-color: lavender;
+}
+
+.test{
+    background-color: aqua;
+}
+
+
+/* Средние устройства (планшеты, 768 пикселей и выше)*/
+@media (min-width: 768px) {
+    .col2{
+        background-color: black;
+    }
+    .col3{
+        background-color: yellow;
+    }
+    .col4{
+        background-color: red;
+    }
+    
+    .col5{
+        background-color: green;
+    }
+    
+    .col6{
+        background-color: blue;
+    }
+    
+    .col1{
+        background-color: grey;
+    }
+}
+
+/* Большие устройства (настольные компьютеры, 992 пикселей и выше) */
+@media (min-width: 992px) {
+    .col1{
+        background-color: black;
+    }
+    .col2{
+        background-color: yellow;
+    }
+    .col3{
+        background-color: red;
+    }
+    
+    .col4{
+        background-color: green;
+    }
+    
+    .col5{
+        background-color: blue;
+    }
+    
+    .col6{
+        background-color: grey;
+    }
+}
+
+@media (max-width: 767px) {
+    .col1{
+        background-color: black;
+        height: 150px;
+        color:white;
+    }
+    .col2{
+        background-color: yellow;
+    }
+    .col3{
+        background-color: red;
+    }
+    
+    .col4{
+        display: none;
+    }
+    
+    .col5{
+        display: none;
+    }
+    
+    .col6{
+        display: none;
+    }
+}
